@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="16dp"
+    android:layout_marginTop="150dp"
+    android:layout_marginRight="16dp"
+    android:orientation="vertical"
+    android:paddingTop="24dp"
+    tools:context=".AddPoemFragment">
+
+    <EditText
+        android:id="@+id/addtitle"
+        android:layout_width="379dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:ems="10"
+        android:hint="Enter title"
+        android:inputType="text"
+        android:padding="24dp"
+        android:paddingTop="24dp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="250dp" />
+
+
+    <EditText
+        android:id="@+id/addpoem"
+        android:layout_width="379dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="75dp"
+        android:ems="10"
+        android:hint=" Write your poem"
+        android:inputType="text"
+        android:padding="24dp"
+        android:paddingTop="24dp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="303dp" />
+
+    <Button
+        android:id="@+id/submitbtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="@color/red"
+        android:padding="16dp"
+        android:paddingTop="24dp"
+        android:text="Submit"
+        tools:layout_editor_absoluteX="160dp"
+        tools:layout_editor_absoluteY="656dp" />
+
+    <Button
+        android:id="@+id/backbtn"
+        android:layout_width="match_parent"
+        android:layout_height="62dp"
+        android:backgroundTint="@color/orange"
+        android:text="Back" />
+</LinearLayout>
